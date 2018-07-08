@@ -10,7 +10,7 @@ passport.use(
       clientID: "462916784120715",
       clientSecret: "aab8bfd1df2d883178e8d61dac73ec0d",
       callbackURL:
-        "https://fierce-cliffs-71332.herokuapp.com/login/facebook/return"
+        "https://fierce-cliffs-71332.herokuapp.com/login/facebook/callback"
     },
     function(accessToken, refereshToken, profile, cb) {
       return cb(null, profile);
